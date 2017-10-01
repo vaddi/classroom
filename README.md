@@ -1,6 +1,7 @@
-# rbase #
+# classroom #
 
-A simple React skeleton App.
+An adaption of th "Classroom Coding with Prof. Frisby" Series 
+Pt1 [https://youtu.be/h_tkIpwbsxY]()
 
 
 
@@ -9,25 +10,19 @@ A simple React skeleton App.
 * A simple Playground to learn React
 * Version: 0.1.0
 
+> You'll need to install yarn the package manager. See installation docs for more Deatails: [https://yarnpkg.com/lang/en/docs/install/]()
+
 
 
 ## How do I get set up? ##
 
 Clone the Repository:
 
-    git clone https://github.com/vaddi/rbase.git
+    git clone https://github.com/vaddi/classroom.git
 
 Get into the Repositiory Folder:
 
-    cd rbase
-
-
-
-## Configuration ##
-
-Configure your application by edition `package.json` or use yarn to setup the new Application Name, Version, Dependencies, etc.:
-
-    yarn init
+    cd classroom
 
 
 

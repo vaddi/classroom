@@ -3,17 +3,20 @@ import ReactDOM from 'react-dom';
 
 import './styles.css';
 
-// import components example
-// import { Button } from './components/Button';
-
-const appName = 'rbase';
+import { Flickr } from './components/Flickr';
 
 class App extends React.Component {
+  
+  // getInitialState :: {error: ""}
+  getInitialState() { return {error: ""} }
+  
+  //
+  showError(s) {this.setState({error: s})}
+
   render() {
     return (
       <div>
-        <h1>{appName}</h1>
-        <p>Edit me: src/index.js</p>
+        <Flickr />
       </div>
     );
   }

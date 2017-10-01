@@ -1,9 +1,13 @@
 {
-  "name": "rbase",
+  "name": "classroom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "data.task": "^3.1.1",
+    "folktale": "^2.0.1",
+    "jquery": "^3.2.1",
     "lodash": "^4.17.4",
+    "ramda": "^0.24.1",
     "react": "^15.5.4",
     "react-dom": "^15.4.2"
   },
@@ -16,7 +20,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "a simple react skeleton application",
+  "description": "a simple react application",
   "main": "index.js",
   "license": "MIT"
 }
