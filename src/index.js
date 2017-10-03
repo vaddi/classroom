@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Flickr } from './components/Flickr';
 
 import './styles.css';
 
-import { Flickr } from './components/Flickr';
-
 class App extends React.Component {
   
-  // getInitialState :: {error: ""}
-  getInitialState() { return {error: ""} }
-  
-  //
+  // constructror :: props -> props, state {error: ""}, Binds -> Binds
+  constructor(props) {
+    super(props);
+    this.state = { error: "" };
+    this.showError = this.showError.bind(this);
+  }
+
+  // showError :: String -> State Error
   showError(s) {this.setState({error: s})}
 
   render() {
