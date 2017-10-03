@@ -86,6 +86,12 @@ https://youtu.be/oZ6C9h49bu8?t=17m17s
 
 
 
+## Libraries and Other Usefull Apendix ##
+
+[http://delapouite.com/ramblings/fantasy-land-cheat-sheet.html](fantasy-land-cheat-sheet)
+
+
+
 ## Links ##
 
 ### Learn React ###
