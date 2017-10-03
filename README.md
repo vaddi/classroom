@@ -38,6 +38,54 @@ Run Application:
 
 
 
+## Advanced ##
+
+### Pt1 - 5m41s - Monoids ###
+
+Replacing by a monoid
+
+// makeUrl :: String -> Url
+const makeUrl = (t) => {
+  {start, end} = baseUrl.split("{TAGS}")
+  return mconcat([start, t, end])
+}
+
+https://youtu.be/h_tkIpwbsxY?t=5m41s
+
+
+### Pt1 - - Functors ###
+
+Replacing by a functor
+
+// makeUrl :: Sting -> Url
+const makeUrl = (t) => replace("{TAGS}", t, baseUrl)
+
+https://youtu.be/h_tkIpwbsxY?t=11m58s
+
+
+### Pt2 - 7m2s - Isomorphism ###
+
+
+
+https://youtu.be/oZ6C9h49bu8?t=7m2s
+
+
+### Pt2 - 14m12s - Fold ###
+
+
+
+https://youtu.be/oZ6C9h49bu8?t=14m12s
+
+
+### Pt2 - 17m17s - Natural Transformation ###
+
+Function :: Maybe a -> Option a
+
+https://youtu.be/oZ6C9h49bu8?t=17m17s
+
+
+
+
 ## Links ##
 
 ### Learn React ###

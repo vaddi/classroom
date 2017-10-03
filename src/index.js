@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Flickr } from './components/Flickr';
+import { Collage } from './components/Collage';
 
 import './styles.css';
 
@@ -19,7 +20,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Flickr />
+        <Flickr showError={this.showError} />
+        <Collage showError={this.showError} />
       </div>
     );
   }
